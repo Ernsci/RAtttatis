@@ -48,8 +48,8 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
 PERSISTENCE_NAME = "MicrosoftUpdate"
 PERSISTENCE_KEY = r"Software\Microsoft\Windows\CurrentVersion\Run"
 
-HIDE_CONSOLE = False  # set True to hide console window
-DEBUG = True           # set False to silence console output
+HIDE_CONSOLE = True  # set True to hide console window
+DEBUG = False           # set False to silence console output
 
 
 def log(msg):
