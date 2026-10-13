@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# build output
+build/
+dist/
+*.spec
+
+# compiled
+__pycache__/
+*.py[cod]
+*.pyd
+*.exe
+
+# local artifacts
+*.log
+rat_log.txt

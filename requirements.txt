@@ -1,0 +1,7 @@
+pyautogui 
+pillow 
+pynput 
+psutil 
+requests 
+ keyboard
+python-telegram-bot
